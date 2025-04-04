@@ -26,7 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.2.1
+plugins:
+  - jekyll-include-cache
 accent_image: /./assets/img/coverBG.jpg
 accent_color: rgb(139,179,255)
 theme_color: rgb(139,179,255)
